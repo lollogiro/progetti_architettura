@@ -1,0 +1,8 @@
+CHIP Zero{
+    IN in;
+    OUT out;
+
+    PARTS:
+    Uno(in=in, out=wire1);
+    Not(in=wire1, out=out);
+}

@@ -1,0 +1,7 @@
+CHIP CheckNG{
+    IN in[16];
+    OUT out;
+
+    PARTS:
+    Mux(a=in[15], b=in[15], sel=in[15], out=out);
+}
